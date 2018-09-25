@@ -20,9 +20,32 @@ sudo apt-get install libminiupnpc-dev
 sudo apt-get install libzmq3-dev
 ```
 
-
+Build
+-----
+Clone the repository
 
 ```
 git clone https://github.com/OmniLayer/omnicore.git
 cd omnicore/
+```
+
+```
+./autogen.sh
+./configure
+make
+```
+
+Create Bitcoin.conf 
+-------------
+
+```
+testnet = 0
+txindex = 1
+server = 1
+rpcuser = rpcusername
+rpcpassword = rpcpassword
+rpcallowip = 0.0.0.0/0
+keypool = 1000
+listen = 1
+
 ```
