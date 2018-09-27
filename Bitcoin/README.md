@@ -1,4 +1,4 @@
-Bitcoin Full Node Minimum Requirements
+Bitcoin full node minimum requirements
 -----------------
 Disk space: 300 gigabytes
 Memory: 2 gigabytes
