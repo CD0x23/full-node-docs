@@ -4,7 +4,7 @@ MAINTAINER Blockron Systems <support@blockron.com>
 # Forked from:
 # https://github.com/jamesob/docker-bitcoind
 
-ARG VERSION=0.16.1
+ARG VERSION=0.16.3
 ARG GLIBC_VERSION=2.27-r0
 
 ENV FILENAME bitcoin-${VERSION}-x86_64-linux-gnu.tar.gz

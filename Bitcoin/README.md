@@ -4,12 +4,6 @@ Disk space: 300 gigabytes
 Memory: 2 gigabytes
 Connection: Preferably an unmetered connection (Around 170gb when you first start the node, 200gb uploads, 20gb downloads per month)
 
-Running
----------
-```
-docker build -t .
-```
-
 Configuration
 ------------
 
